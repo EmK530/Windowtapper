@@ -12,10 +12,10 @@ I have 3 versions for you waiting in [Releases](https://github.com/EmK530/Window
 
 ### windowtapper_wav.zip
 This version is an attempt to produce an executable as tiny as possible, you will get the most quality out of this one but you have to extract a dependency file with the samples. There are two executables however.<br>
-- <b>wavetapper.exe</b>
-  - This is the smallest executable you can possibly get, it's compressed with [UPX](https://upx.github.io/)<br>but this may anger some antiviruses so if you have trouble switch to <b>wavetapper_unp.exe</b>
-- <b>wavetapper_unp.exe</b>
-  - An unpacked version of <b>wavetapper.exe</b> that should seem less suspicious to antiviruses.
+- <b>windowtapper.exe</b>
+  - This is the smallest executable you can possibly get, it's compressed with [UPX](https://upx.github.io/)<br>but this may anger some antiviruses so if you have trouble switch to <b>windowtapper_unp.exe</b>
+- <b>windowtapper_unp.exe</b>
+  - An unpacked version of <b>windowtapper.exe</b> that should seem less suspicious to antiviruses.
 
 ### windowtapper_opus.exe
 This version is completely standalone, requiring no dependencies but has about 3 MB of samples (719 of them!) packed into the executable.
