@@ -1,0 +1,5 @@
+.vscode
+build_temp
+windowtapper.exe
+windowtapper_upx.exe
+samples.pck

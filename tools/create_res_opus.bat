@@ -1,0 +1,1 @@
+windres resources_opus.rc -O coff -o resources.res

@@ -1,0 +1,1 @@
+windres resources_wav.rc -O coff -o resources.res
