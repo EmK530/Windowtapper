@@ -12,10 +12,10 @@ I have 3 versions for you waiting in [Releases](https://github.com/EmK530/Window
 
 ### windowtapper_wav.zip
 This version is an attempt to produce an executable as tiny as possible, you will get the most quality out of this one but you have to extract a dependency file with the samples. There are two executables however.<br>
-- <b>wavetapper.exe</b>
-  - This is the smallest executable you can possibly get, it's compressed with [UPX](https://upx.github.io/)<br>but this may anger some antiviruses so if you have trouble switch to <b>wavetapper_unp.exe</b>
-- <b>wavetapper_unp.exe</b>
-  - An unpacked version of <b>wavetapper.exe</b> that should seem less suspicious to antiviruses.
+- <b>windowtapper.exe</b>
+  - This is the smallest executable you can possibly get, it's compressed with [UPX](https://upx.github.io/)<br>but this may anger some antiviruses so if you have trouble switch to <b>windowtapper_unp.exe</b>
+- <b>windowtapper_unp.exe</b>
+  - An unpacked version of <b>windowtapper.exe</b> that should seem less suspicious to antiviruses.
 
 ### windowtapper_opus.exe
 This version is completely standalone, requiring no dependencies but has about 3 MB of samples (719 of them!) packed into the executable.
@@ -25,7 +25,7 @@ I don't have a lot of advice but I'll say this right here:<br>
 <b>This is a Windows app! It does Windows things! I have no plans to port this to Linux but you may!</b>
 
 I used mingw32-make to compile the app and the code should contain everything necessary to compile.<br>
-I don't have the opus library stored elsewhere on my computer, it's [in this repository](https://github.com/EmK530/Windowtapper/tree/main/libs).
+I don't have the opus library stored elsewhere on my computer, it's [in this repository](https://github.com/EmK530/Windowtapper/tree/master/libs).
 
 ## Special Thanks
 yobnedaa's [Individual Blocks Playlist](https://www.youtube.com/watch?v=N5xQTOXLjeU&list=PLF2EaFd_A24sPeOnTFu8E__YBjn-2x-Pz)
