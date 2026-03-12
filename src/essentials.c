@@ -37,30 +37,6 @@ void print_uint(uint32_t v) {
     print(p);
 }
 
-// fuck you
-void build_sample_path(uint32_t sid, char* out){
-    char* p=out;
-
-    *p++='s';*p++='a';*p++='m';*p++='p';*p++='l';*p++='e';*p++='s';*p++='/';
-
-    char* start=p;
-
-    do{
-        *p++='0'+sid%10;
-        sid/=10;
-    }while(sid);
-
-    for(char* a=start,*b=p-1;a<b;a++,b--){
-        char t=*a;*a=*b;*b=t;
-    }
-
-    *p++='.';
-    *p++='w';
-    *p++='a';
-    *p++='v';
-    *p=0;
-}
-
 // BitReader
 
 void BitReader_Init(BitReader* br, const uint8_t* data, uint32_t size) {

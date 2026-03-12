@@ -10,7 +10,6 @@ void wfree(void* ptr);
 const uint8_t* load_resource(int id);
 void print(const char* str);
 void print_uint(uint32_t v);
-void build_sample_path(uint32_t sid, char* out);
 
 typedef struct {
     const uint8_t* data;
