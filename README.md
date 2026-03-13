@@ -25,6 +25,8 @@ I don't have a lot of advice but I'll say this right here:<br>
 <b>This is a Windows app! It does Windows things! I have no plans to port this to Linux but you may!</b>
 
 I used mingw32-make to compile the app and the code should contain everything necessary to compile.<br>
+The WAV version is compiled by default, to compile opus run `mingw32-make opus`.<br>
+Make sure to run `mingw32-make clean` when switching build modes or there will be build issues from the cache!<br>
 I don't have the opus library stored elsewhere on my computer, it's [in this repository](https://github.com/EmK530/Windowtapper/tree/master/libs).
 
 ## Special Thanks
