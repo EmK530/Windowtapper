@@ -1,4 +1,4 @@
-# Windowtapper
+# [Windowtapper](https://www.youtube.com/watch?v=dbKezpk4izU)
 Windowtapper is a recreation of the Wavetapper song by Frums using individual windows to represent each cube playing sound.
 
 <img width="256" height="256" alt="Windowtapper Showcase" src="https://github.com/user-attachments/assets/5a040bc9-7ccf-4e87-8d3e-daed40a19aa1" />
